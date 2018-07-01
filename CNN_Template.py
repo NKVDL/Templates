@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -175,4 +176,8 @@ if result[0][0] == 1:
 else:
     prediction = 'cat'
 
-
+    
+"""
+Train_set Accuracy: 99%
+Test_set Accuracy: 94%
+"""
