@@ -7,9 +7,6 @@ Created on Sun Jun  3 00:27:10 2018
 """
 """
 Upper bound confidence algorithm on nxn matrix of 10 ads per person. 
-
-
-
 """
 #Importing libraries
 import numpy as np
