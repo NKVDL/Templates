@@ -178,6 +178,10 @@ else:
 
     
 """
-Train_set Accuracy: 99%
-Test_set Accuracy: 94%
+Accuracy: 94.9%  
+Loss: 0.13
+Val_Accuracy: 98%, Loss
+Val_Loss: 0.05
 """
+
+
