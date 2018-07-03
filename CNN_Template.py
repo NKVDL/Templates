@@ -194,7 +194,7 @@ if result[0][0] == 1:
 else:
     prediction = 'cat'
 
-def testimage(testimage):    
+def testimage(testimage2):    
     #Importing image
     test_image2 = image.load_img('dataset/single_prediction/Cat.3.jpg', target_size = (64, 64)) # grayscale=True,optional
     #Convert image to array of nxn dimensions
