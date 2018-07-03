@@ -123,7 +123,7 @@ Tensorboard; in terminal:
 ###Visualise  model progression
 import losswise
 from losswise.libs import LosswiseKerasCallback
-losswise.set_api_key('887912Y7Q')
+losswise.set_api_key('your_key_here') #free @www.losswise.com 
 
 #Running the CNN on the training set
 classifier.fit_generator(training_set,
@@ -138,7 +138,7 @@ classifier.fit_generator(training_set,
 classifier.save_weights('cat_dog_full_model_weights2.h5')
 classifier.save('cat_dog_classifier2.h5')
 
-###Visualise  model 
+"""###Visualise  model 
 # list all data in history
 print(classifier.history.keys())
 # summarize history for accuracy
@@ -160,6 +160,7 @@ plt.show()
 
  ##############################################################################
 ####
+"""
 """
 To load and use model compile the architecture of your model (not fit), then from 
 keras.models import load_model and create a new var to load your classifier on. 
