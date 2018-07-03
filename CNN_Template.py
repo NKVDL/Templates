@@ -36,7 +36,7 @@ classifier.add(Conv2D(32, 3, 3,
 """
 To my classifier I add the function for my feature maps with rxc, rowxcolumn,
  heightxwidth, compressing my information to 3 by 3 rows and columns.
- My input is 64 by 64 pixels and has 3 layers Red, Green, Blue. My activation
+ My input is 100 by 100 pixels and has 3 layers Red, Green, Blue. My activation
 function is as Rectifier Linear Unit to maximise the values into my rxc matrix:
     
     f(x)= x^{+} =max(0,x)},
@@ -47,7 +47,7 @@ where x is the input to a neuron.
 classifier.add(MaxPooling2D(pool_size=(2, 2)))
 
 """
-Pooling layers into 2 and taking the maximum of the feature maps. Reducing size
+Pooling layers with 2x2 filter and taking the maximum of the feature maps. Reducing size
 without losing information.
 """
 #-Adding layer and pooled feature maps
