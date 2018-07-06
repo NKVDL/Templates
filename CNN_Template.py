@@ -206,7 +206,7 @@ else:
 
 def testimage(testimage):    
     #Importing image
-    test_image2 = image.load_img('dataset/single_prediction/Cat.3.jpg', target_size = (64, 64)) # grayscale=True,optional
+    test_image2 = image.load_img('dataset/single_prediction/Cat.3.jpg', target_size = (100, 100)) # grayscale=True,optional
     #Convert image to array of nxn dimensions
     test_image2 = image.img_to_array(test_image2)
     #Image as new axis that will appear at the axis position in the expanded array shape.
